@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "isDemo": true,
+    "description": "Inventario ficticio para demostración. No representa el stock real del taller.",
+    "totalStock": 3000
+  },
+  "products": [
+    {"id": 1, "sku": "DEM-001", "name": "Pastillas de freno delanteras", "category": "Frenos", "description": "Juego de pastillas para sistema de frenado delantero.", "price": 32990, "stock": 420, "image": "assets/images/parts-placeholder.svg", "featured": true, "compatibility": "Compatibilidad genérica sujeta a confirmación."},
+    {"id": 2, "sku": "DEM-002", "name": "Filtro de aceite", "category": "Filtros", "description": "Filtro de aceite para mantenimiento preventivo.", "price": 8990, "stock": 380, "image": "assets/images/parts-placeholder.svg", "featured": true, "compatibility": "Compatibilidad genérica sujeta a confirmación."},
+    {"id": 3, "sku": "DEM-003", "name": "Filtro de aire del motor", "category": "Filtros", "description": "Elemento filtrante para admisión de aire.", "price": 12990, "stock": 310, "image": "assets/images/parts-placeholder.svg", "featured": false, "compatibility": "Compatibilidad genérica sujeta a confirmación."},
+    {"id": 4, "sku": "DEM-004", "name": "Bujías de encendido", "category": "Motor", "description": "Juego de bujías para encendido del motor.", "price": 18990, "stock": 280, "image": "assets/images/parts-placeholder.svg", "featured": true, "compatibility": "Compatibilidad genérica sujeta a confirmación."},
+    {"id": 5, "sku": "DEM-005", "name": "Amortiguador delantero", "category": "Suspensión", "description": "Amortiguador delantero para mejorar estabilidad.", "price": 54990, "stock": 260, "image": "assets/images/parts-placeholder.svg", "featured": false, "compatibility": "Compatibilidad genérica sujeta a confirmación."},
+    {"id": 6, "sku": "DEM-006", "name": "Radiador de refrigeración", "category": "Refrigeración", "description": "Radiador para circuito de refrigeración.", "price": 87990, "stock": 180, "image": "assets/images/parts-placeholder.svg", "featured": false, "compatibility": "Compatibilidad genérica sujeta a confirmación."},
+    {"id": 7, "sku": "DEM-007", "name": "Alternador", "category": "Sistema eléctrico", "description": "Alternador de referencia para sistema eléctrico.", "price": 119990, "stock": 220, "image": "assets/images/parts-placeholder.svg", "featured": true, "compatibility": "Compatibilidad genérica sujeta a confirmación."},
+    {"id": 8, "sku": "DEM-008", "name": "Bomba de agua", "category": "Refrigeración", "description": "Bomba de circulación para sistema de refrigeración.", "price": 45990, "stock": 300, "image": "assets/images/parts-placeholder.svg", "featured": false, "compatibility": "Compatibilidad genérica sujeta a confirmación."},
+    {"id": 9, "sku": "DEM-009", "name": "Kit de embrague", "category": "Transmisión", "description": "Kit de referencia para mantenimiento del embrague.", "price": 149990, "stock": 250, "image": "assets/images/parts-placeholder.svg", "featured": true, "compatibility": "Compatibilidad genérica sujeta a confirmación."},
+    {"id": 10, "sku": "DEM-010", "name": "Correa de distribución", "category": "Motor", "description": "Correa para sistema de distribución del motor.", "price": 38990, "stock": 400, "image": "assets/images/parts-placeholder.svg", "featured": false, "compatibility": "Compatibilidad genérica sujeta a confirmación."}
+  ]
+}

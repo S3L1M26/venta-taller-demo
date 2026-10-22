@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MotorStock: catálogo de demostración de repuestos automotrices con atención personalizada.">
+  <title>MotorStock | Repuestos automotrices</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="MotorStock, ir al inicio">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="5"/>
+          <circle cx="24" cy="24" r="6" fill="currentColor"/>
+          <path d="M24 3v9M24 36v9M3 24h9M36 24h9" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+        <span data-store-name>MotorStock</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Repuestos</a>
+        <a href="#contacto">Contacto</a>
+        <a class="button button-small button-dark" data-whatsapp-general href="#">Consultar por WhatsApp <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Atención personalizada por WhatsApp</p>
+          <h1>El repuesto correcto para <em>seguir avanzando.</em></h1>
+          <p class="hero-text">Encuentra repuestos automotrices de demostración y recibe orientación personalizada para consultar disponibilidad, compatibilidad y despacho.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#catalogo">Explorar repuestos <span aria-hidden="true">↓</span></a>
+            <a class="button button-ghost" data-whatsapp-general href="#">Consultar disponibilidad <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="hero-note">Catálogo de demostración · Precios sujetos a confirmación</p>
+        </div>
+        <div class="hero-visual" aria-label="Ilustración de un automóvil y piezas mecánicas" role="img">
+          <div class="visual-tag tag-top">STOCK<br><strong>DEMO</strong></div>
+          <div class="visual-tag tag-bottom">MOTOR<br><strong>STOCK</strong></div>
+          <svg viewBox="0 0 600 430" class="car-art" aria-hidden="true">
+            <path class="art-line" d="M75 293h451l-18-72c-6-25-25-42-50-47l-74-15-48-63h-93c-19 0-38 10-49 25l-50 66-53 19c-18 6-30 22-30 42v45h14"/>
+            <path class="art-fill" d="M129 217h358l-14-56c-4-15-16-25-32-28l-67-13-44-58H254c-12 0-24 6-32 16l-47 64-41 15c-7 3-12 9-14 17l-7 43z"/>
+            <path class="window" d="M220 147l35-58h92l40 54z"/>
+            <path class="window" d="M405 145l-37-56h25l64 13c9 2 16 8 19 17l8 26z"/>
+            <path class="art-line" d="M76 293h37M487 293h39M176 207h23M414 207h29"/>
+            <circle class="tire" cx="172" cy="294" r="39"/><circle class="hub" cx="172" cy="294" r="17"/>
+            <circle class="tire" cx="433" cy="294" r="39"/><circle class="hub" cx="433" cy="294" r="17"/>
+            <path class="art-line accent-stroke" d="M117 239h374M255 90l-1 58M348 90l-1 58"/>
+            <circle class="accent-fill" cx="509" cy="125" r="34"/><path d="M509 105v40M489 125h40" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Beneficios">
+      <div class="container trust-grid">
+        <div class="trust-item"><span class="trust-icon">◎</span><div><strong>Atención personalizada</strong><small>Te orientamos en cada consulta</small></div></div>
+        <div class="trust-item"><span class="trust-icon">⌕</span><div><strong>Consulta de disponibilidad</strong><small>Confirmamos antes de coordinar</small></div></div>
+        <div class="trust-item"><span class="trust-icon">↗</span><div><strong>Coordinación de despacho</strong><small>Revisamos opciones contigo</small></div></div>
+      </div>
+    </section>
+
+    <section class="catalog section" id="catalogo">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">Explora el inventario</p><h2>Catálogo de <em>repuestos.</em></h2></div>
+          <p class="section-description">Una selección de productos ficticios para mostrar cómo funcionará la tienda. La disponibilidad y compatibilidad se confirman por WhatsApp.</p>
+        </div>
+        <div class="catalog-tools">
+          <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Buscar por nombre, categoría o código..." autocomplete="off"><kbd>⌘ K</kbd></label>
+          <label class="sort-box"><span>Ordenar:</span><select id="sort-select"><option value="name">Nombre A-Z</option><option value="price-asc">Precio menor a mayor</option><option value="price-desc">Precio mayor a menor</option></select></label>
+        </div>
+        <div class="filter-row" id="category-filters" aria-label="Filtrar por categoría">
+          <button class="filter-chip is-active" type="button" data-category="all">Todos</button>
+          <button class="filter-chip" type="button" data-category="Frenos">Frenos</button>
+          <button class="filter-chip" type="button" data-category="Motor">Motor</button>
+          <button class="filter-chip" type="button" data-category="Filtros">Filtros</button>
+          <button class="filter-chip" type="button" data-category="Suspensión">Suspensión</button>
+          <button class="filter-chip" type="button" data-category="Transmisión">Transmisión</button>
+          <button class="filter-chip" type="button" data-category="Sistema eléctrico">Sistema eléctrico</button>
+          <button class="filter-chip" type="button" data-category="Refrigeración">Refrigeración</button>
+          <button class="clear-filters" id="clear-filters" type="button">Limpiar filtros</button>
+        </div>
+        <div class="results-bar"><p id="results-count">Cargando catálogo...</p><span class="demo-badge">● Datos ficticios</span></div>
+        <div class="products-grid" id="products-grid" aria-live="polite"></div>
+        <div class="empty-state" id="empty-state" hidden><span class="empty-icon">⌕</span><h3>No encontramos repuestos</h3><p>Prueba con otro término o limpia los filtros para ver todo el catálogo.</p><button class="button button-dark" type="button" id="empty-clear">Ver todos los repuestos</button></div>
+        <div class="load-error" id="load-error" hidden><strong>No pudimos cargar el catálogo.</strong><p>Verifica que estés ejecutando el proyecto mediante Live Server y vuelve a intentarlo.</p></div>
+      </div>
+    </section>
+
+    <section class="how section">
+      <div class="container">
+        <div class="section-heading centered"><div><p class="eyebrow">Simple y transparente</p><h2>Así funciona.</h2></div><p class="section-description">Te acompañamos desde la búsqueda hasta la coordinación, sin pagos online ni promesas que no podamos confirmar.</p></div>
+        <div class="steps-grid">
+          <article class="step"><span class="step-number">01</span><div class="step-icon">⌕</div><h3>Encuentra tu repuesto</h3><p>Busca por nombre, categoría o código dentro del catálogo.</p></article>
+          <article class="step"><span class="step-number">02</span><div class="step-icon">◌</div><h3>Consulta por WhatsApp</h3><p>Confirma disponibilidad y compatibilidad con tu vehículo.</p></article>
+          <article class="step"><span class="step-number">03</span><div class="step-icon">↗</div><h3>Coordina tu despacho</h3><p>Revisa las opciones de compra y despacho antes de cerrar.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div class="container contact-card"><div><p class="eyebrow light">¿No encuentras lo que buscas?</p><h2>Hablemos de tu <em>repuesto.</em></h2><p>Envíanos el nombre o código del repuesto y te ayudaremos a revisar disponibilidad, compatibilidad y opciones de despacho.</p><small>Los precios, existencias y compatibilidades están sujetos a confirmación.</small></div><a class="button button-light" data-whatsapp-general href="#">Escribir por WhatsApp <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#inicio"><svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="5"/><circle cx="24" cy="24" r="6" fill="currentColor"/><path d="M24 3v9M24 36v9M3 24h9M36 24h9" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg><span data-store-name>MotorStock</span></a><div class="footer-links"><a href="#inicio">Inicio</a><a href="#catalogo">Repuestos</a><a href="#contacto">Contacto</a><a data-whatsapp-general href="#">WhatsApp ↗</a></div><p>© <span id="current-year"></span> <span data-store-name>MotorStock</span> · Catálogo de demostración. Información y precios sujetos a confirmación.</p></div></footer>
+</body>
+</html>

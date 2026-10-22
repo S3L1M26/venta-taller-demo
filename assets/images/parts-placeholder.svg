@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#eef0f2"/>
+  <circle cx="320" cy="210" r="124" fill="none" stroke="#d8dce0" stroke-width="34"/>
+  <circle cx="320" cy="210" r="46" fill="#d8dce0"/>
+  <path d="M320 57v52M320 311v52M167 210h52M421 210h52M212 102l37 37M391 281l37 37M428 102l-37 37M249 281l-37 37" stroke="#d8dce0" stroke-width="18" stroke-linecap="round"/>
+  <text x="320" y="390" text-anchor="middle" fill="#9ba2a9" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">MOTORSTOCK · DEMO</text>
+</svg>
